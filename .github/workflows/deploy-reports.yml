@@ -8,7 +8,7 @@ on:
 
 env:
   PROFILE: Files
-  ENVIRONMENT: PROD
+  ENVIRONMENT: cloud_user_p_a5ff2dd1@realhandsonlabs.com
 
 jobs:
   Deployment:
@@ -26,4 +26,4 @@ jobs:
       - name: pbi-tools deploy
         run: /app/pbi-tools/pbi-tools.core deploy . "$PROFILE" "$ENVIRONMENT"
         env:
-          PBI_CLIENT_SECRET: ${{ secrets.PBI_CLIENT_SECRET }}
+          PBI_CLIENT_SECRET: FOilLES9f#skjYcKxu8n
